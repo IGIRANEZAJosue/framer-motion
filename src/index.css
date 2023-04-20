@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+	background: linear-gradient(to right, #2c5364, #203a43);
+}
+
+h1 {
+	user-select: none;
+}
+
+.App {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background: white;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+}
+
+.card p {
+	padding-top: 1rem;
+	line-height: 150%;
+}
+
+.expand {
+	width: 32rem;
+}
+
+button {
+	padding: 6px 16px;
+	margin-top: 1rem;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	border-radius: 999px;
+	border: 2px solid #2c5364;
+	color: #2c5364;
+	cursor: pointer;
+}
